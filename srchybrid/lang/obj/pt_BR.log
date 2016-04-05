@@ -1,0 +1,14 @@
+﻿Build started 8/1/2014 5:51:58 PM.
+     1>Project "e:\projects\sMule\srchybrid\lang\pt_BR.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "obj\languages - Portuguese (Brazil).unsuccessfulbuild".
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"obj\pt_BR.res" pt_BR.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(e:\projects\sMule\srchybrid\lang\dynamic\languages - Portuguese (Brazil).dll) does not match the Linker's OutputFile property value (e:\projects\sMule\srchybrid\lang\dynamic\pt_BR.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(languages - Portuguese (Brazil)) does not match the Linker's OutputFile property value (pt_BR). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(275,5): error MSB6003: The specified task executable "link.exe" could not be run. The process cannot access the file 'e:\projects\sMule\srchybrid\lang\obj\link.read.1.tlog' because it is being used by another process.
+     1>Done Building Project "e:\projects\sMule\srchybrid\lang\pt_BR.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.85

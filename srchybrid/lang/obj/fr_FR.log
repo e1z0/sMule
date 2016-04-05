@@ -1,0 +1,14 @@
+﻿Build started 8/1/2014 5:52:01 PM.
+     1>Project "e:\projects\sMule\srchybrid\lang\fr_FR.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "obj\languages - French (France).unsuccessfulbuild".
+       ResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(e:\projects\sMule\srchybrid\lang\dynamic\languages - French (France).dll) does not match the Linker's OutputFile property value (e:\projects\sMule\srchybrid\lang\dynamic\fr_FR.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(languages - French (France)) does not match the Linker's OutputFile property value (fr_FR). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(275,5): error MSB6003: The specified task executable "link.exe" could not be run. The process cannot access the file 'e:\projects\sMule\srchybrid\lang\obj\link-cvtres.read.1.tlog' because it is being used by another process.
+     1>Done Building Project "e:\projects\sMule\srchybrid\lang\fr_FR.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.06

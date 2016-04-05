@@ -1,0 +1,22 @@
+﻿Build started 8/1/2014 5:51:57 PM.
+     1>Project "e:\projects\sMule\srchybrid\lang\tr_TR_vc71.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "obj\languages - Turkish.unsuccessfulbuild".
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"obj\tr_TR.res" tr_TR.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(e:\projects\sMule\srchybrid\lang\dynamic\languages - Turkish.dll) does not match the Linker's OutputFile property value (e:\projects\sMule\srchybrid\lang\dynamic\tr_TR.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(languages - Turkish) does not match the Linker's OutputFile property value (tr_TR). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"dynamic\tr_TR.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"obj\languages - Turkish.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"e:\projects\sMule\srchybrid\lang\dynamic\languages - Turkish.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /NOENTRY /DYNAMICBASE /NXCOMPAT /IMPLIB:"dynamic\languages - Turkish.lib" /MACHINE:X86 /DLL obj\tr_TR.res
+         tr_TR_vc71.vcxproj -> e:\projects\sMule\srchybrid\lang\dynamic\languages - Turkish.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"dynamic\tr_TR.dll;#2" /manifest "obj\languages - Turkish.dll.intermediate.manifest"
+     1>FileTracker : error FTK1011: could not create the new file tracking log file: e:\projects\sMule\srchybrid\lang\obj\mt.write.1.tlog. The file exists.
+         
+         
+         
+     1>Done Building Project "e:\projects\sMule\srchybrid\lang\tr_TR_vc71.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.89

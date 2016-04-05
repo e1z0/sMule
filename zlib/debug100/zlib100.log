@@ -1,0 +1,67 @@
+﻿Build started 7/30/2014 8:58:08 PM.
+     1>Project "E:\projects\sMule\zlib\zlib100.vcxproj" on node 3 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\projects\sMule\srchybrid\debug100\".
+       InitializeBuildStatus:
+         Creating "debug100\zlib100.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /Gm- /EHa /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"debug100\\" /Fd"debug100\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt adler32.c compress.c crc32.c deflate.c gzclose.c gzlib.c gzread.c gzwrite.c infback.c inffast.c inflate.c inftrees.c trees.c uncompr.c zutil.c
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+     1>e:\projects\smule\zlib\gzlib.c(173): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(312) : see declaration of 'open'
+     1>e:\projects\smule\zlib\gzlib.c(184): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(310) : see declaration of 'lseek'
+     1>e:\projects\smule\zlib\gzlib.c(268): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(310) : see declaration of 'lseek'
+     1>e:\projects\smule\zlib\gzlib.c(309): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(310) : see declaration of 'lseek'
+     1>e:\projects\smule\zlib\gzlib.c(404): warning C4996: 'lseek': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _lseek. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(310) : see declaration of 'lseek'
+         gzread.c
+     1>e:\projects\smule\zlib\gzread.c(31): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(313) : see declaration of 'read'
+     1>e:\projects\smule\zlib\gzread.c(650): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(302) : see declaration of 'close'
+         gzwrite.c
+     1>e:\projects\smule\zlib\gzwrite.c(80): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(318) : see declaration of 'write'
+     1>e:\projects\smule\zlib\gzwrite.c(528): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(302) : see declaration of 'close'
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         uncompr.c
+         zutil.c
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\projects\sMule\srchybrid\debug100\zlib100.lib" /NOLOGO debug100\adler32.obj
+         debug100\compress.obj
+         debug100\crc32.obj
+         debug100\deflate.obj
+         debug100\gzclose.obj
+         debug100\gzlib.obj
+         debug100\gzread.obj
+         debug100\gzwrite.obj
+         debug100\infback.obj
+         debug100\inffast.obj
+         debug100\inflate.obj
+         debug100\inftrees.obj
+         debug100\trees.obj
+         debug100\uncompr.obj
+         debug100\zutil.obj
+         zlib100.vcxproj -> E:\projects\sMule\srchybrid\debug100\zlib100.lib
+       FinalizeBuildStatus:
+         Deleting file "debug100\zlib100.unsuccessfulbuild".
+         Touching "debug100\zlib100.lastbuildstate".
+     1>Done Building Project "E:\projects\sMule\zlib\zlib100.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.79

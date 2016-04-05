@@ -1,0 +1,146 @@
+﻿Build started 7/30/2014 8:58:24 PM.
+     1>Project "E:\projects\sMule\id3lib\id3lib100.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "debug100\id3lib100.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I.\include /I.\include\id3 /I..\zlib /I..\cryptopp /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D WIN32 /D _LIB /D _WINDOWS /D HAVE_CONFIG_H /D ID3LIB_LINKOPTION=1 /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /Gm- /EHa /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"debug100\\" /Fd"debug100\vc100.pdb" /FR"debug100\\" /Gd /TP /analyze- /errorReport:prompt src\c_wrapper.cpp src\field.cpp src\field_binary.cpp src\field_integer.cpp src\field_string_ascii.cpp src\field_string_unicode.cpp src\frame.cpp src\frame_impl.cpp src\frame_parse.cpp src\frame_render.cpp src\globals.cpp src\header.cpp src\header_frame.cpp src\header_tag.cpp src\helpers.cpp src\io.cpp src\io_decorators.cpp src\io_helpers.cpp src\misc_support.cpp src\mp3_parse.cpp src\readers.cpp src\spec.cpp src\tag.cpp src\tag_file.cpp src\tag_find.cpp src\tag_impl.cpp src\tag_parse.cpp src\tag_parse_lyrics3.cpp src\tag_parse_musicmatch.cpp src\tag_parse_v1.cpp src\tag_render.cpp src\utils.cpp src\writers.cpp
+         c_wrapper.cpp
+         field.cpp
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+         field_binary.cpp
+         field_integer.cpp
+         field_string_ascii.cpp
+         field_string_unicode.cpp
+         frame.cpp
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+         frame_impl.cpp
+         frame_parse.cpp
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+         frame_render.cpp
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+         globals.cpp
+         header.cpp
+         header_frame.cpp
+         header_tag.cpp
+         helpers.cpp
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+         io.cpp
+         io_decorators.cpp
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+         io_helpers.cpp
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+         misc_support.cpp
+         mp3_parse.cpp
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+         Generating Code...
+         Compiling...
+         readers.cpp
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+         spec.cpp
+         tag.cpp
+     1>e:\projects\smule\id3lib\include\id3\writers.h(42): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'ID3_Writer::pos_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\writers.h(69): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Writer::pos_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\writers.h(92): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'ID3_Writer::pos_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\writers.h(119): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Writer::pos_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+         tag_file.cpp
+     1>e:\projects\smule\id3lib\include\id3\writers.h(42): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'ID3_Writer::pos_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\writers.h(69): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Writer::pos_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\writers.h(92): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'ID3_Writer::pos_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\writers.h(119): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Writer::pos_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+     1>e:\projects\smule\id3lib\src\tag_file.cpp(256): warning C4244: 'initializing' : conversion from 'std::streamsize' to 'size_t', possible loss of data
+     1>e:\projects\smule\id3lib\src\tag_file.cpp(418): warning C4244: 'initializing' : conversion from 'std::streamsize' to 'size_t', possible loss of data
+         tag_find.cpp
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+         tag_impl.cpp
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+         tag_parse.cpp
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+         tag_parse_lyrics3.cpp
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+         tag_parse_musicmatch.cpp
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+         tag_parse_v1.cpp
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+         tag_render.cpp
+     1>e:\projects\smule\id3lib\include\id3\readers.h(56): warning C4244: 'return' : conversion from 'std::streamsize' to 'ID3_Reader::size_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\readers.h(60): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Reader::pos_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\writers.h(42): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'ID3_Writer::pos_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\writers.h(69): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Writer::pos_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\writers.h(92): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'ID3_Writer::pos_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\writers.h(119): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Writer::pos_type', possible loss of data
+         utils.cpp
+     1>e:\projects\smule\id3lib\src\utils.cpp(263): warning C4244: '=' : conversion from 'std::streamoff' to 'size_t', possible loss of data
+     1>e:\projects\smule\id3lib\src\utils.cpp(276): warning C4244: '=' : conversion from 'std::streamoff' to 'size_t', possible loss of data
+     1>e:\projects\smule\id3lib\src\utils.cpp(289): warning C4244: '=' : conversion from 'std::streamoff' to 'size_t', possible loss of data
+         writers.cpp
+     1>e:\projects\smule\id3lib\include\id3\writers.h(42): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'ID3_Writer::pos_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\writers.h(69): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Writer::pos_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\writers.h(92): warning C4244: 'initializing' : conversion from 'std::streamoff' to 'ID3_Writer::pos_type', possible loss of data
+     1>e:\projects\smule\id3lib\include\id3\writers.h(119): warning C4244: 'return' : conversion from 'std::streamoff' to 'ID3_Writer::pos_type', possible loss of data
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\projects\sMule\srchybrid\debug100\id3lib100.lib" /NOLOGO debug100\c_wrapper.obj
+         debug100\field.obj
+         debug100\field_binary.obj
+         debug100\field_integer.obj
+         debug100\field_string_ascii.obj
+         debug100\field_string_unicode.obj
+         debug100\frame.obj
+         debug100\frame_impl.obj
+         debug100\frame_parse.obj
+         debug100\frame_render.obj
+         debug100\globals.obj
+         debug100\header.obj
+         debug100\header_frame.obj
+         debug100\header_tag.obj
+         debug100\helpers.obj
+         debug100\io.obj
+         debug100\io_decorators.obj
+         debug100\io_helpers.obj
+         debug100\misc_support.obj
+         debug100\mp3_parse.obj
+         debug100\readers.obj
+         debug100\spec.obj
+         debug100\tag.obj
+         debug100\tag_file.obj
+         debug100\tag_find.obj
+         debug100\tag_impl.obj
+         debug100\tag_parse.obj
+         debug100\tag_parse_lyrics3.obj
+         debug100\tag_parse_musicmatch.obj
+         debug100\tag_parse_v1.obj
+         debug100\tag_render.obj
+         debug100\utils.obj
+         debug100\writers.obj
+         id3lib100.vcxproj -> E:\projects\sMule\srchybrid\debug100\id3lib100.lib
+       MakeDirsForBscMake:
+         Creating directory "E:\projects\sMule\id3lib\Debug\".
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug/id3lib.bsc" debug100\c_wrapper.sbr debug100\field.sbr debug100\field_binary.sbr debug100\field_integer.sbr debug100\field_string_ascii.sbr debug100\field_string_unicode.sbr debug100\frame.sbr debug100\frame_impl.sbr debug100\frame_parse.sbr debug100\frame_render.sbr debug100\globals.sbr debug100\header.sbr debug100\header_frame.sbr debug100\header_tag.sbr debug100\helpers.sbr debug100\io.sbr debug100\io_decorators.sbr debug100\io_helpers.sbr debug100\misc_support.sbr debug100\mp3_parse.sbr debug100\readers.sbr debug100\spec.sbr debug100\tag.sbr debug100\tag_file.sbr debug100\tag_find.sbr debug100\tag_impl.sbr debug100\tag_parse.sbr debug100\tag_parse_lyrics3.sbr debug100\tag_parse_musicmatch.sbr debug100\tag_parse_v1.sbr debug100\tag_render.sbr debug100\utils.sbr debug100\writers.sbr
+       FinalizeBuildStatus:
+         Deleting file "debug100\id3lib100.unsuccessfulbuild".
+         Touching "debug100\id3lib100.lastbuildstate".
+     1>Done Building Project "E:\projects\sMule\id3lib\id3lib100.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:21.09

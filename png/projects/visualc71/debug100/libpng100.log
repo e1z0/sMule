@@ -1,0 +1,81 @@
+﻿Build started 7/30/2014 8:58:18 PM.
+     1>Project "E:\projects\sMule\png\projects\visualc71\libpng100.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "debug100\libpng100.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\.. /I..\..\..\zlib /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PNG_DEBUG=1 /D PNG_USE_PNGVCRD /D PNG_LIBPNG_SPECIALBUILD /D _VC80_UPGRADE=0x0710 /Gm- /EHa /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"png.h" /Fp"debug100\libpng100.pch" /Fo"debug100\\" /Fd"debug100\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\pngerror.c
+         pngerror.c
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\.. /I..\..\..\zlib /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PNG_DEBUG=1 /D PNG_USE_PNGVCRD /D PNG_LIBPNG_SPECIALBUILD /D _VC80_UPGRADE=0x0710 /Gm- /EHa /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"debug100\\" /Fd"debug100\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\png.c
+         png.c
+     1>e:\projects\smule\png\png.c(537): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\.. /I..\..\..\zlib /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PNG_DEBUG=1 /D PNG_USE_PNGVCRD /D PNG_LIBPNG_SPECIALBUILD /D _VC80_UPGRADE=0x0710 /Gm- /EHa /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"png.h" /Fp"debug100\libpng100.pch" /Fo"debug100\\" /Fd"debug100\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\pngget.c ..\..\pngmem.c ..\..\pngpread.c ..\..\pngread.c ..\..\pngrio.c ..\..\pngrtran.c ..\..\pngrutil.c ..\..\pngset.c ..\..\pngtrans.c ..\..\pngwio.c ..\..\pngwrite.c ..\..\pngwtran.c ..\..\pngwutil.c
+         pngget.c
+         pngmem.c
+         pngpread.c
+         pngread.c
+     1>e:\projects\smule\png\pngread.c(134): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\projects\smule\png\pngread.c(139): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         pngrio.c
+         pngrtran.c
+     1>e:\projects\smule\png\pngrtran.c(1315): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         pngrutil.c
+     1>e:\projects\smule\png\pngrutil.c(278): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\projects\smule\png\pngrutil.c(383): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\projects\smule\png\pngrutil.c(1139): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\projects\smule\png\pngrutil.c(1142): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         pngset.c
+         pngtrans.c
+         pngwio.c
+         pngwrite.c
+     1>e:\projects\smule\png\pngwrite.c(450): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(99) : see declaration of 'gmtime'
+     1>e:\projects\smule\png\pngwrite.c(548): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\projects\smule\png\pngwrite.c(553): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         pngwtran.c
+         pngwutil.c
+     1>e:\projects\smule\png\pngwutil.c(226): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\projects\smule\png\pngwutil.c(1260): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\projects\smule\png\pngwutil.c(1621): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+     1>e:\projects\smule\png\pngwutil.c(1623): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(363) : see declaration of '_snprintf'
+         Generating Code...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(E:\projects\sMule\png\projects\visualc71\debug100\libpng100.lib) does not match the Library's OutputFile property value (E:\projects\sMule\png\projects\visualc71\debug100\libpngd.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1153,5): warning MSB8012: TargetName(libpng100) does not match the Library's OutputFile property value (libpngd). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"debug100\libpngd.lib" /NOLOGO debug100\png.obj
+         debug100\pngerror.obj
+         debug100\pngget.obj
+         debug100\pngmem.obj
+         debug100\pngpread.obj
+         debug100\pngread.obj
+         debug100\pngrio.obj
+         debug100\pngrtran.obj
+         debug100\pngrutil.obj
+         debug100\pngset.obj
+         debug100\pngtrans.obj
+         debug100\pngwio.obj
+         debug100\pngwrite.obj
+         debug100\pngwtran.obj
+         debug100\pngwutil.obj
+         libpng100.vcxproj -> E:\projects\sMule\png\projects\visualc71\debug100\libpng100.lib
+       FinalizeBuildStatus:
+         Deleting file "debug100\libpng100.unsuccessfulbuild".
+         Touching "debug100\libpng100.lastbuildstate".
+     1>Done Building Project "E:\projects\sMule\png\projects\visualc71\libpng100.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.49

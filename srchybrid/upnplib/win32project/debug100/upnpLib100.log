@@ -1,0 +1,241 @@
+﻿Build started 7/30/2014 8:58:11 PM.
+     1>Project "E:\projects\sMule\srchybrid\upnplib\win32project\upnpLib100.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "debug100\upnpLib100.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       MakeDirsForCl:
+         Creating directory "E:\projects\sMule\srchybrid\upnplib\win32project\.\Debug".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\projects\sMule\srchybrid\upnplib\win32project\\..\ixml\src\inc /IE:\projects\sMule\srchybrid\upnplib\win32project\\..\upnp\src\inc /IE:\projects\sMule\srchybrid\upnplib\win32project\\..\upnp\inc /IE:\projects\sMule\srchybrid\upnplib\win32project\\..\threadutil\inc /IE:\projects\sMule\srchybrid\upnplib\win32project\\..\ixml\inc /IE:\projects\sMule\srchybrid\upnplib\win32project\\..\..\pthreads\pthreads\inc /ZI /nologo /W3 /WX- /Od /Oy- /D UPNP_STATIC_LIB /D INCLUDE_CLIENT_APIS /D _WIN32 /D WIN32 /D _DEBUG /D PTW32_STATIC_LIB /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHa /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR"debug100\\" /Gd /TP /analyze- /errorReport:prompt upnpLib.cpp
+         upnpLib.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IE:\projects\sMule\srchybrid\upnplib\win32project\\..\ixml\src\inc /IE:\projects\sMule\srchybrid\upnplib\win32project\\..\upnp\src\inc /IE:\projects\sMule\srchybrid\upnplib\win32project\\..\upnp\inc /IE:\projects\sMule\srchybrid\upnplib\win32project\\..\threadutil\inc /IE:\projects\sMule\srchybrid\upnplib\win32project\\..\ixml\inc /IE:\projects\sMule\srchybrid\upnplib\win32project\\..\..\pthreads\pthreads\inc /ZI /nologo /W3 /WX- /Od /Oy- /D UPNP_STATIC_LIB /D INCLUDE_CLIENT_APIS /D _WIN32 /D WIN32 /D _DEBUG /D PTW32_STATIC_LIB /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHa /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /FR"debug100\\" /Gd /TC /analyze- /errorReport:prompt ..\ixml\src\attr.c ..\ixml\src\document.c ..\ixml\src\element.c ..\ixml\src\ixml.c ..\ixml\src\ixmlmembuf.c ..\ixml\src\ixmlparser.c ..\ixml\src\namedNodeMap.c ..\ixml\src\node.c ..\ixml\src\nodeList.c ..\threadutil\src\FreeList.c ..\threadutil\src\iasnprintf.c ..\threadutil\src\LinkedList.c ..\threadutil\src\ThreadPool.c ..\threadutil\src\TimerThread.c ..\upnp\src\api\config.c ..\upnp\src\api\upnpapi.c ..\upnp\src\api\upnptools.c ..\upnp\src\gena\gena_callback2.c ..\upnp\src\gena\gena_ctrlpt.c ..\upnp\src\gena\gena_device.c ..\upnp\src\genlib\client_table\client_table.c ..\upnp\src\genlib\miniserver\miniserver.c ..\upnp\src\genlib\net\sock.c ..\upnp\src\genlib\net\http\httpparser.c ..\upnp\src\genlib\net\http\httpreadwrite.c ..\upnp\src\genlib\net\http\parsetools.c ..\upnp\src\genlib\net\http\statcodes.c ..\upnp\src\genlib\net\http\webserver.c ..\upnp\src\genlib\net\uri\uri.c ..\upnp\src\genlib\service_table\service_table.c ..\upnp\src\genlib\util\membuffer.c ..\upnp\src\genlib\util\strintmap.c ..\upnp\src\genlib\util\upnp_timeout.c ..\upnp\src\genlib\util\util.c ..\upnp\src\soap\soap_ctrlpt.c ..\upnp\src\soap\soap_device.c ..\upnp\src\ssdp\ssdp_ctrlpt.c ..\upnp\src\ssdp\ssdp_device.c ..\upnp\src\ssdp\ssdp_server.c ..\upnp\src\urlconfig\urlconfig.c ..\upnp\src\uuid\md5.c ..\upnp\src\uuid\sysdep.c ..\upnp\src\uuid\uuid.c
+         attr.c
+         document.c
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\document.c(170): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\document.c(179): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\document.c(244): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\document.c(315): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\document.c(324): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\document.c(400): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\document.c(473): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\document.c(555): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\document.c(563): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\document.c(636): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+         element.c
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\element.c(87): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\element.c(182): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\element.c(201): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\element.c(576): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\element.c(613): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\element.c(623): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\element.c(640): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+         ixml.c
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixml.c(450): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+         ixmlmembuf.c
+         ixmlparser.c
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(503): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(510): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(520): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(612): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1120): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1123): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1126): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1129): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1132): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1135): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1158): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1278): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1282): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1439): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1442): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1444): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1583): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1599): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1634): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1651): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1690): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1709): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1736): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1742): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1760): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1797): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1948): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(1979): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(2078): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(2086): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(2123): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(2291): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(2344): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\ixmlparser.c(2423): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+         namedNodeMap.c
+         node.c
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\node.c(191): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\node.c(223): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\node.c(254): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\node.c(347): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>e:\projects\smule\srchybrid\upnplib\ixml\src\node.c(1566): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+         nodeList.c
+         FreeList.c
+         iasnprintf.c
+         LinkedList.c
+         ThreadPool.c
+     1>e:\projects\smule\srchybrid\upnplib\threadutil\src\threadpool.c(314): warning C4244: '=' : conversion from 'time_t' to 'long', possible loss of data
+         TimerThread.c
+     1>e:\projects\smule\srchybrid\upnplib\threadutil\src\timerthread.c(135): warning C4244: '=' : conversion from 'time_t' to 'long', possible loss of data
+         config.c
+         upnpapi.c
+     1>e:\projects\smule\srchybrid\upnplib\upnp\src\api\upnpapi.c(195): warning C4244: 'function' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         upnptools.c
+         gena_callback2.c
+         gena_ctrlpt.c
+         gena_device.c
+         Generating Code...
+         Compiling...
+         client_table.c
+         miniserver.c
+     1>e:\projects\smule\srchybrid\upnplib\upnp\src\genlib\miniserver\miniserver.c(75): warning C4005: 'EADDRINUSE' : macro redefinition
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\errno.h(92) : see previous definition of 'EADDRINUSE'
+         sock.c
+     1>e:\projects\smule\srchybrid\upnplib\upnp\src\genlib\net\sock.c(260): warning C4244: '-=' : conversion from 'time_t' to 'int', possible loss of data
+         httpparser.c
+         httpreadwrite.c
+         parsetools.c
+         statcodes.c
+         webserver.c
+         uri.c
+     1>e:\projects\smule\srchybrid\upnplib\upnp\src\genlib\net\uri\uri.c(419): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+     1>e:\projects\smule\srchybrid\upnplib\upnp\src\genlib\net\uri\uri.c(928): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+         service_table.c
+         membuffer.c
+     1>e:\projects\smule\srchybrid\upnplib\upnp\src\genlib\util\membuffer.c(150): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : see declaration of 'strnicmp'
+         strintmap.c
+         upnp_timeout.c
+         util.c
+         soap_ctrlpt.c
+         soap_device.c
+         ssdp_ctrlpt.c
+     1>e:\projects\smule\srchybrid\upnplib\upnp\src\ssdp\ssdp_ctrlpt.c(572): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(135) : see declaration of 'strdup'
+         ssdp_device.c
+         ssdp_server.c
+         urlconfig.c
+         Generating Code...
+         Compiling...
+         md5.c
+         sysdep.c
+         uuid.c
+     1>e:\projects\smule\srchybrid\upnplib\upnp\src\uuid\uuid.c(140): warning C4293: '>>' : shift count negative or too big, undefined behavior
+     1>e:\projects\smule\srchybrid\upnplib\upnp\src\uuid\uuid.c(141): warning C4293: '>>' : shift count negative or too big, undefined behavior
+     1>e:\projects\smule\srchybrid\upnplib\upnp\src\uuid\uuid.c(278): warning C4293: '>>' : shift count negative or too big, undefined behavior
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"debug100\upnpLib100.lib" /NOLOGO /NODEFAULTLIB .\Debug/upnpLib.obj
+         .\Debug/attr.obj
+         .\Debug/document.obj
+         .\Debug/element.obj
+         .\Debug/ixml.obj
+         .\Debug/ixmlmembuf.obj
+         .\Debug/ixmlparser.obj
+         .\Debug/namedNodeMap.obj
+         .\Debug/node.obj
+         .\Debug/nodeList.obj
+         .\Debug/FreeList.obj
+         .\Debug/iasnprintf.obj
+         .\Debug/LinkedList.obj
+         .\Debug/ThreadPool.obj
+         .\Debug/TimerThread.obj
+         .\Debug/config.obj
+         .\Debug/upnpapi.obj
+         .\Debug/upnptools.obj
+         .\Debug/gena_callback2.obj
+         .\Debug/gena_ctrlpt.obj
+         .\Debug/gena_device.obj
+         .\Debug/client_table.obj
+         .\Debug/miniserver.obj
+         .\Debug/sock.obj
+         .\Debug/httpparser.obj
+         .\Debug/httpreadwrite.obj
+         .\Debug/parsetools.obj
+         .\Debug/statcodes.obj
+         .\Debug/webserver.obj
+         .\Debug/uri.obj
+         .\Debug/service_table.obj
+         .\Debug/membuffer.obj
+         .\Debug/strintmap.obj
+         .\Debug/upnp_timeout.obj
+         .\Debug/util.obj
+         .\Debug/soap_ctrlpt.obj
+         .\Debug/soap_device.obj
+         .\Debug/ssdp_ctrlpt.obj
+         .\Debug/ssdp_device.obj
+         .\Debug/ssdp_server.obj
+         .\Debug/urlconfig.obj
+         .\Debug/md5.obj
+         .\Debug/sysdep.obj
+         .\Debug/uuid.obj
+         E:\projects\sMule\srchybrid\pthreads\pthreads\debug100\pthread100.lib
+     1>LINK : fatal error LNK1181: cannot open input file 'E:\projects\sMule\srchybrid\pthreads\pthreads\debug100\pthread100.lib'
+     1>Done Building Project "E:\projects\sMule\srchybrid\upnplib\win32project\upnpLib100.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:25.23

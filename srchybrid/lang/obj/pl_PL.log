@@ -1,0 +1,29 @@
+﻿Build started 8/1/2014 5:52:01 PM.
+     1>Project "e:\projects\sMule\srchybrid\lang\pl_PL.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "obj\languages - Polish.unsuccessfulbuild".
+       ResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(e:\projects\sMule\srchybrid\lang\dynamic\languages - Polish.dll) does not match the Linker's OutputFile property value (e:\projects\sMule\srchybrid\lang\dynamic\pl_PL.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(languages - Polish) does not match the Linker's OutputFile property value (pl_PL). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"dynamic\pl_PL.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"obj\languages - Polish.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"e:\projects\sMule\srchybrid\lang\dynamic\languages - Polish.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /NOENTRY /DYNAMICBASE /NXCOMPAT /IMPLIB:"dynamic\languages - Polish.lib" /MACHINE:X86 /DLL obj\pl_PL.res
+         pl_PL.vcxproj -> e:\projects\sMule\srchybrid\lang\dynamic\languages - Polish.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"dynamic\pl_PL.dll;#2" /manifest "obj\languages - Polish.dll.intermediate.manifest"
+       PostBuildEvent:
+         Description: Copying language DLL into debug directory
+         if not exist ..\..\smule\lang md ...\..\smule\lang
+               copy "e:\projects\sMule\srchybrid\lang\dynamic\languages - Polish.dll" ..\..\smule\lang\languages - Polish.dll
+         
+         :VCEnd
+         The system cannot find the file specified.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: The command "if not exist ..\..\smule\lang md ...\..\smule\lang
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073:       copy "e:\projects\sMule\srchybrid\lang\dynamic\languages - Polish.dll" ..\..\smule\lang\languages - Polish.dll
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :VCEnd" exited with code 1.
+     1>Done Building Project "e:\projects\sMule\srchybrid\lang\pl_PL.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.71

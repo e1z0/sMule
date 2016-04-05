@@ -1,0 +1,14 @@
+﻿Build started 8/1/2014 5:51:57 PM.
+     1>Project "e:\projects\sMule\srchybrid\lang\lt_LT.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "obj\languages - Lithuanian.unsuccessfulbuild".
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"obj\lt_LT.res" lt_LT.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(e:\projects\sMule\srchybrid\lang\dynamic\languages - Lithuanian.dll) does not match the Linker's OutputFile property value (e:\projects\sMule\srchybrid\lang\dynamic\lt_LT.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(languages - Lithuanian) does not match the Linker's OutputFile property value (lt_LT). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(275,5): error MSB6003: The specified task executable "link.exe" could not be run. The process cannot access the file 'e:\projects\sMule\srchybrid\lang\obj\link.read.1.tlog' because it is being used by another process.
+     1>Done Building Project "e:\projects\sMule\srchybrid\lang\lt_LT.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.23

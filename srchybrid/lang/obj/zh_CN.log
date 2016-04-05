@@ -1,0 +1,29 @@
+﻿Build started 8/1/2014 5:52:00 PM.
+     1>Project "e:\projects\sMule\srchybrid\lang\zh_CN.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "obj\languages - Chinese (P.R.C.).unsuccessfulbuild".
+       ResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(e:\projects\sMule\srchybrid\lang\dynamic\languages - Chinese (P.R.C.).dll) does not match the Linker's OutputFile property value (e:\projects\sMule\srchybrid\lang\dynamic\zh_CN.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(languages - Chinese (P.R.C.)) does not match the Linker's OutputFile property value (zh_CN). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"dynamic\zh_CN.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"obj\languages - Chinese (P.R.C.).dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"e:\projects\sMule\srchybrid\lang\dynamic\languages - Chinese (P.R.C.).pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /NOENTRY /DYNAMICBASE /NXCOMPAT /IMPLIB:"dynamic\languages - Chinese (P.R.C.).lib" /MACHINE:X86 /DLL obj\zh_CN.res
+         zh_CN.vcxproj -> e:\projects\sMule\srchybrid\lang\dynamic\languages - Chinese (P.R.C.).dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"dynamic\zh_CN.dll;#2" /manifest "obj\languages - Chinese (P.R.C.).dll.intermediate.manifest"
+       PostBuildEvent:
+         Description: Copying language DLL into debug directory
+         if not exist ..\..\smule\lang md ...\..\smule\lang
+               copy "e:\projects\sMule\srchybrid\lang\dynamic\languages - Chinese (P.R.C.).dll" ..\..\smule\lang\languages - Chinese (P.R.C.).dll
+         
+         :VCEnd
+         The system cannot find the file specified.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: The command "if not exist ..\..\smule\lang md ...\..\smule\lang
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073:       copy "e:\projects\sMule\srchybrid\lang\dynamic\languages - Chinese (P.R.C.).dll" ..\..\smule\lang\languages - Chinese (P.R.C.).dll
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: 
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets(113,5): error MSB3073: :VCEnd" exited with code 1.
+     1>Done Building Project "e:\projects\sMule\srchybrid\lang\zh_CN.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.78

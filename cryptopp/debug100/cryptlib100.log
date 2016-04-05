@@ -1,0 +1,278 @@
+﻿Build started 7/30/2014 8:58:25 PM.
+     1>Project "E:\projects\sMule\cryptopp\cryptlib100.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "debug100\cryptlib100.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Performing Custom Build Tools
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oi /Oy- /D _DEBUG /D _WINDOWS /D USE_PRECOMPILED_HEADERS /D WIN32 /D _VC80_UPGRADE=0x0710 /Gm- /EHa /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"debug100\cryptlib100.pch" /Fo"debug100\\" /Fd"debug100\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt pch.cpp
+         pch.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oi /Oy- /D _DEBUG /D _WINDOWS /D USE_PRECOMPILED_HEADERS /D WIN32 /D _VC80_UPGRADE=0x0710 /Gm- /EHa /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"debug100\cryptlib100.pch" /Fo"debug100\\" /Fd"debug100\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 3way.cpp adler32.cpp algebra.cpp algparam.cpp arc4.cpp asn.cpp authenc.cpp base32.cpp base64.cpp basecode.cpp bfinit.cpp blowfish.cpp blumshub.cpp camellia.cpp cast.cpp casts.cpp cbcmac.cpp ccm.cpp channels.cpp cmac.cpp cpu.cpp crc.cpp cryptlib.cpp default.cpp des.cpp dessp.cpp dh.cpp dh2.cpp dsa.cpp ec2n.cpp ecp.cpp elgamal.cpp emsa2.cpp esign.cpp files.cpp filters.cpp fips140.cpp fipstest.cpp gf256.cpp gf2_32.cpp gf2n.cpp gfpcrypt.cpp gost.cpp gzip.cpp hex.cpp hmac.cpp hrtimer.cpp ida.cpp idea.cpp integer.cpp luc.cpp mars.cpp marss.cpp md2.cpp md4.cpp md5.cpp misc.cpp modes.cpp mqueue.cpp mqv.cpp nbtheory.cpp network.cpp oaep.cpp osrng.cpp panama.cpp pkcspad.cpp polynomi.cpp pssr.cpp pubkey.cpp queue.cpp rabin.cpp randpool.cpp rc2.cpp rc5.cpp rc6.cpp rdtables.cpp rijndael.cpp ripemd.cpp rng.cpp rsa.cpp rw.cpp safer.cpp salsa.cpp seal.cpp seed.cpp serpent.cpp sha.cpp shacal2.cpp shark.cpp sharkbox.cpp simple.cpp skipjack.cpp socketft.cpp sosemanuk.cpp square.cpp squaretb.cpp strciphr.cpp tea.cpp tftables.cpp tiger.cpp tigertab.cpp trdlocal.cpp ttmac.cpp twofish.cpp vmac.cpp wait.cpp wake.cpp whrlpool.cpp winpipes.cpp xtr.cpp xtrcrypt.cpp zdeflate.cpp zinflate.cpp zlib.cpp
+         3way.cpp
+         adler32.cpp
+         algebra.cpp
+         algparam.cpp
+         arc4.cpp
+         asn.cpp
+         authenc.cpp
+         base32.cpp
+         base64.cpp
+         basecode.cpp
+         bfinit.cpp
+         blowfish.cpp
+         blumshub.cpp
+         camellia.cpp
+         cast.cpp
+         casts.cpp
+         cbcmac.cpp
+         ccm.cpp
+         channels.cpp
+         cmac.cpp
+         Generating Code...
+         Compiling...
+         cpu.cpp
+         crc.cpp
+         cryptlib.cpp
+         default.cpp
+         des.cpp
+         dessp.cpp
+         dh.cpp
+         dh2.cpp
+         dsa.cpp
+         ec2n.cpp
+         ecp.cpp
+         elgamal.cpp
+         emsa2.cpp
+         esign.cpp
+         files.cpp
+     1>e:\projects\smule\cryptopp\files.cpp(75): warning C4244: '=' : conversion from 'std::streamsize' to 'size_t', possible loss of data
+     1>e:\projects\smule\cryptopp\files.cpp(198): warning C4244: '-=' : conversion from 'std::streamsize' to 'size_t', possible loss of data
+         filters.cpp
+         fips140.cpp
+         fipstest.cpp
+         gf256.cpp
+         gf2_32.cpp
+         Generating Code...
+         Compiling...
+         gf2n.cpp
+         gfpcrypt.cpp
+         gost.cpp
+         gzip.cpp
+         hex.cpp
+         hmac.cpp
+         hrtimer.cpp
+         ida.cpp
+         idea.cpp
+         integer.cpp
+         luc.cpp
+         mars.cpp
+         marss.cpp
+         md2.cpp
+         md4.cpp
+         md5.cpp
+         misc.cpp
+         modes.cpp
+         mqueue.cpp
+         mqv.cpp
+         Generating Code...
+         Compiling...
+         nbtheory.cpp
+         network.cpp
+         oaep.cpp
+         osrng.cpp
+         panama.cpp
+         pkcspad.cpp
+         polynomi.cpp
+         pssr.cpp
+         pubkey.cpp
+         queue.cpp
+         rabin.cpp
+         randpool.cpp
+         rc2.cpp
+         rc5.cpp
+         rc6.cpp
+         rdtables.cpp
+         rijndael.cpp
+         ripemd.cpp
+         rng.cpp
+         rsa.cpp
+         Generating Code...
+         Compiling...
+         rw.cpp
+         safer.cpp
+         salsa.cpp
+         seal.cpp
+         seed.cpp
+         serpent.cpp
+         sha.cpp
+         shacal2.cpp
+         shark.cpp
+         sharkbox.cpp
+         simple.cpp
+         skipjack.cpp
+         socketft.cpp
+         sosemanuk.cpp
+         square.cpp
+         squaretb.cpp
+         strciphr.cpp
+         tea.cpp
+         tftables.cpp
+         tiger.cpp
+         Generating Code...
+         Compiling...
+         tigertab.cpp
+         trdlocal.cpp
+         ttmac.cpp
+         twofish.cpp
+         vmac.cpp
+         wait.cpp
+         wake.cpp
+         whrlpool.cpp
+         winpipes.cpp
+         xtr.cpp
+         xtrcrypt.cpp
+         zdeflate.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2873): warning C4996: 'std::_Mismatch1': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2856) : see declaration of 'std::_Mismatch1'
+                 e:\projects\smule\cryptopp\zdeflate.cpp(394) : see reference to function template instantiation 'std::pair<_Ty1,_Ty2> std::mismatch<const byte*,const byte*>(_InIt1,_InIt1,_InIt2)' being compiled
+                 with
+                 [
+                     _Ty1=const byte *,
+                     _Ty2=const byte *,
+                     _InIt1=const byte *,
+                     _InIt2=const byte *
+                 ]
+         zinflate.cpp
+         zlib.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oi /Oy- /D _DEBUG /D _WINDOWS /D USE_PRECOMPILED_HEADERS /D WIN32 /D _VC80_UPGRADE=0x0710 /Gm- /EHa /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"debug100\\" /Fd"debug100\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dll.cpp
+         dll.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oi /Oy- /D _DEBUG /D _WINDOWS /D USE_PRECOMPILED_HEADERS /D WIN32 /D _VC80_UPGRADE=0x0710 /Gm- /EHa /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"debug100\\" /Fd"debug100\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt iterhash.cpp
+         iterhash.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\projects\sMule\srchybrid\debug100\cryptlib100.lib" /NOLOGO debug100\3way.obj
+         debug100\adler32.obj
+         debug100\algebra.obj
+         debug100\algparam.obj
+         debug100\arc4.obj
+         debug100\asn.obj
+         debug100\authenc.obj
+         debug100\base32.obj
+         debug100\base64.obj
+         debug100\basecode.obj
+         debug100\bfinit.obj
+         debug100\blowfish.obj
+         debug100\blumshub.obj
+         debug100\camellia.obj
+         debug100\cast.obj
+         debug100\casts.obj
+         debug100\cbcmac.obj
+         debug100\ccm.obj
+         debug100\channels.obj
+         debug100\cmac.obj
+         debug100\cpu.obj
+         debug100\crc.obj
+         debug100\cryptlib.obj
+         debug100\default.obj
+         debug100\des.obj
+         debug100\dessp.obj
+         debug100\dh.obj
+         debug100\dh2.obj
+         debug100\dll.obj
+         debug100\dsa.obj
+         debug100\ec2n.obj
+         debug100\ecp.obj
+         debug100\elgamal.obj
+         debug100\emsa2.obj
+         debug100\esign.obj
+         debug100\files.obj
+         debug100\filters.obj
+         debug100\fips140.obj
+         debug100\fipstest.obj
+         debug100\gf256.obj
+         debug100\gf2_32.obj
+         debug100\gf2n.obj
+         debug100\gfpcrypt.obj
+         debug100\gost.obj
+         debug100\gzip.obj
+         debug100\hex.obj
+         debug100\hmac.obj
+         debug100\hrtimer.obj
+         debug100\ida.obj
+         debug100\idea.obj
+         debug100\integer.obj
+         debug100\iterhash.obj
+         debug100\luc.obj
+         debug100\mars.obj
+         debug100\marss.obj
+         debug100\md2.obj
+         debug100\md4.obj
+         debug100\md5.obj
+         debug100\misc.obj
+         debug100\modes.obj
+         debug100\mqueue.obj
+         debug100\mqv.obj
+         debug100\nbtheory.obj
+         debug100\network.obj
+         debug100\oaep.obj
+         debug100\osrng.obj
+         debug100\panama.obj
+         debug100\pch.obj
+         debug100\pkcspad.obj
+         debug100\polynomi.obj
+         debug100\pssr.obj
+         debug100\pubkey.obj
+         debug100\queue.obj
+         debug100\rabin.obj
+         debug100\randpool.obj
+         debug100\rc2.obj
+         debug100\rc5.obj
+         debug100\rc6.obj
+         debug100\rdtables.obj
+         debug100\rijndael.obj
+         debug100\ripemd.obj
+         debug100\rng.obj
+         debug100\rsa.obj
+         debug100\rw.obj
+         debug100\safer.obj
+         debug100\salsa.obj
+         debug100\seal.obj
+         debug100\seed.obj
+         debug100\serpent.obj
+         debug100\sha.obj
+         debug100\shacal2.obj
+         debug100\shark.obj
+         debug100\sharkbox.obj
+         debug100\simple.obj
+         debug100\skipjack.obj
+         debug100\socketft.obj
+         debug100\sosemanuk.obj
+         debug100\square.obj
+         debug100\squaretb.obj
+         debug100\strciphr.obj
+         debug100\tea.obj
+         debug100\tftables.obj
+         debug100\tiger.obj
+         debug100\tigertab.obj
+         debug100\trdlocal.obj
+         debug100\ttmac.obj
+         debug100\twofish.obj
+         debug100\vmac.obj
+         debug100\wait.obj
+         debug100\wake.obj
+         debug100\whrlpool.obj
+         debug100\winpipes.obj
+         debug100\xtr.obj
+         debug100\xtrcrypt.obj
+         debug100\zdeflate.obj
+         debug100\zinflate.obj
+         debug100\zlib.obj
+         cryptlib100.vcxproj -> E:\projects\sMule\srchybrid\debug100\cryptlib100.lib
+       FinalizeBuildStatus:
+         Deleting file "debug100\cryptlib100.unsuccessfulbuild".
+         Touching "debug100\cryptlib100.lastbuildstate".
+     1>Done Building Project "E:\projects\sMule\cryptopp\cryptlib100.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:35.72
